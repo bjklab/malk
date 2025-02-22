@@ -1,0 +1,21 @@
+Package: malk
+Type: Package
+Title: Generating `ggplot2` plots from chalkboard json.
+Version: 0.1.0
+Author: Brendan J. Kelly
+Maintainer: Brendan J. Kelly <brendank@upenn.edu>
+Description: Inspired by the `quarto` chalkboard utility and its json output option.
+URL: http://github.com/bjklab/malk
+Depends:
+    R (>= 4.0)
+Imports:
+    dplyr,
+    ggplot2,
+    jsonlite,
+    purrr,
+    tidyr,
+    tibble
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
